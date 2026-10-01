@@ -1,0 +1,64 @@
+/* Body background: coral/orange shade as seen in the output */
+body {
+  background-color: #ff7043;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+}
+
+/* Step 4 & 5: Apply dark blue text color to all elements with class 'head' */
+.head {
+  color: #0b1354;
+}
+
+/* Step 6: Heading 2 background lime */
+#bglime {
+  background-color: #00ff66;
+  padding: 6px 10px;
+}
+
+/* Step 7: Red text for specific highlighted words in heading 2 */
+#bglime span {
+  color: red;
+}
+
+/* Step 8: Default paragraph styling */
+p {
+  color: #ffffff;
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+/* Step 9: Customize paragraph with id 'para' */
+#para {
+  color: green;
+}
+
+/* Step 10: "paragraph" text inside 2nd/3rd target styled black with larger font size */
+p span {
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* Step 11: Lists and links styled using descendant selectors without class/id */
+ul, ol {
+  color: #ffffff;
+  padding-left: 24px;
+  margin-top: 6px;
+}
+
+li {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+/* Styling the "here" anchor tags directly via list hierarchy */
+ul li a,
+ol li a {
+  background-color: #ffd600;
+  color: #0000ee;
+  padding: 1px 4px;
+  text-decoration: underline;
+  font-weight: bold;
+}
